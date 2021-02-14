@@ -1,0 +1,21 @@
+[package]
+name = "petpit"
+version = "0.1.0"
+authors = ["olivier <olivier@blazy.eu>"]
+edition = "2018"
+
+[dependencies]
+curve25519-dalek = { version = "1", default-features = false }
+rand_core = { version = "0.3", default-features = false }
+rand_os = "0.1"
+rand = "0.7.0"
+bencher = "0.1.5"
+
+[features]
+default = ["std", "u64_backend"]
+std = ["curve25519-dalek/std"]
+u64_backend = ["curve25519-dalek/u64_backend"]
+
+[[bench]]
+name = "bench"
+harness = false

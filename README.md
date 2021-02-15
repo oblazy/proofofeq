@@ -2,7 +2,8 @@
 
 Library associated with the Generic Plaintext Equality and Inequality Proofs paper
 
-The paper was accepted at Financial Crypto 2021 .
+The paper was accepted at Financial Crypto 2021.
+
 Written by Olivier Blazy, Xavier Bultel, Pascal Lafourcade and Octavio Perez Kempner.
 
 ## Introduction
